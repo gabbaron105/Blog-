@@ -5,7 +5,7 @@ module.exports = function(app) {
 
     const MongoClient = require('mongodb').MongoClient
     MongoClient.connect(
-    'mongodb+srv://Gabrys:////@cluster0.5wiz5vb.mongodb.net/////?retryWrites=true&w=majority',
+    'mongodb+srv://////:////@cluster0.5wiz5vb.mongodb.net/////?retryWrites=true&w=majority',
     {useUnifiedTopology: true}
     ).then( (client) => {
         console.log('Connected to Mongo Database')
